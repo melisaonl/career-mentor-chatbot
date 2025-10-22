@@ -1,0 +1,19 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.env
+
+# Streamlit specific
+.streamlit/
+*.log
+
+# Database files
+career_chroma_db/
+
+# Environment variables
+.env

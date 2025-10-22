@@ -1,0 +1,95 @@
+html, body, [class*="stAppViewContainer"] {
+    background-color: #0e0f12;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+[data-testid="stAppViewContainer"] > div:first-child {
+    padding-top: 70px; 
+}
+
+/* Header */
+.header {
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: 1px solid #2a2a2a;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    background-color: #0e0f12; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center; 
+}
+
+.header-icon {
+    height: 100px;
+    width: 100px; 
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.text-group {
+    display: block; 
+}
+
+.header h2 {
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    font-size: 20px;
+}
+.header p {
+    color: #aaa;
+    font-size: 12px;
+    margin: 0;
+}
+
+/* Welcome Message  */
+.welcome-center {
+    text-align: center;
+    padding: 100px 20px;
+    opacity: 0.8;
+}
+.welcome-center h1 {
+    font-size: 48px;
+    color: #1f1a6b; 
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.welcome-center .guide-text {
+    font-size: 18px;
+    color: #bbb;
+    margin-bottom: 25px;
+}
+.welcome-center .start-text {
+    font-size: 16px;
+    color: #999;
+}
+
+
+/* Chat Balonları */
+.user-bubble {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 18px 18px 4px 18px;
+    max-width: 70%;
+    margin: 10px 0 10px auto;
+}
+
+/* Chat input alanı */
+[data-testid="stChatInput"] {
+    position: fixed !important;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60% !important;
+    border-radius: 40px !important;
+    background-color: #1a1a1a !important;
+    border: 1px solid #333 !important;
+    padding: 8px 16px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
