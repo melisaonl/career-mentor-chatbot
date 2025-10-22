@@ -40,7 +40,7 @@ Sistem, **dört farklı kariyer veri setinden elde edilen zengin ve ilişkisel b
 
 1.  **Depoyu Klonlayın :**
     ```bash
-    git clone [https://github.com/melisaonl/career-mentor-chatbot.git](https://github.com/melisaonl/career-mentor-chatbot.git)
+    git clone https://github.com/melisaonl/career-mentor-chatbot.git
     cd career-mentor-chatbot
     ```
 
