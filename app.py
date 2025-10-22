@@ -3,7 +3,7 @@ import sys
 from dotenv import load_dotenv
 import streamlit as st
 from langchain_core.prompts import PromptTemplate               
-from langchain.chains import ConversationalRetrievalChain     
+from langchain_community.chains import ConversationalRetrievalChain
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings 
