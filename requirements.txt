@@ -1,10 +1,11 @@
 streamlit
-langchain
-langchain-google-genai
+langchain-core
 langchain-community
+langchain-google-genai
 chromadb
+huggingface-hub
 sentence-transformers
-pandas
 python-dotenv
-torch
-
+pandas
+numpy
+scikit-learn
