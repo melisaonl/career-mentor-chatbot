@@ -2,12 +2,12 @@ import os
 import sys
 from dotenv import load_dotenv
 import streamlit as st
-from langchain_core.prompts import PromptTemplate               
-from langchain.chains import ConversationalRetrievalChain
+from langchain.prompts import PromptTemplate 
+from langchain.chains import ConversationalRetrievalChain 
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings 
-from langchain.memory import ConversationBufferWindowMemory
+from langchain.embeddings import HuggingFaceEmbeddings 
+from langchain.memory import ConversationBufferWindowMemory 
 from streamlit.components.v1 import html
 
 # ----- Configuration and Setup -----
