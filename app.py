@@ -2,9 +2,6 @@ import os
 import sys
 from dotenv import load_dotenv
 import streamlit as st
-import time
-from textwrap import dedent
-from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 from langchain.chains import ConversationalRetrievalChain
 from langchain_google_genai import ChatGoogleGenerativeAI
