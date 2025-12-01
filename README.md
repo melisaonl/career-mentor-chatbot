@@ -85,6 +85,6 @@ Sistem, **dört farklı kariyer veri setinden elde edilen zengin ve ilişkisel b
 ---
 
 ### Deploy Link
-[Deploy Linki](https://career-mentor-chatbot-tavabspfadykmdabwxxy4m.streamlit.app/))
+[Deploy Linki](https://career-mentor-chatbot-tavabspfadykmdabwxxy4m.streamlit.app/)
 
 ![Career Mentor Chatbot Demo](https://github.com/user-attachments/assets/2a8f6908-75d3-43be-b36d-7486a71483e3)
